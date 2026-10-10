@@ -95,7 +95,7 @@ code { padding: 0.1rem 0.3rem; border-radius: 3px; background: var(--soft); font
 
 .intro-photo {
   flex: 0 0 250px;
-   margin-top: 2.5rem;
+   margin-top: 4.5rem;
 }
 
 .intro-photo img {
