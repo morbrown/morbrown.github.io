@@ -1,4 +1,4 @@
-```css
+
 /* Shared stylesheet for the six-page academic website.
    Edit the variables below to customize the site-wide colors and width. */
 :root {
@@ -126,4 +126,3 @@ code { padding: 0.1rem 0.3rem; border-radius: 3px; background: var(--soft); font
     flex-basis: auto;
   }
 }
-```
