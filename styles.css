@@ -77,3 +77,42 @@ code { padding: 0.1rem 0.3rem; border-radius: 3px; background: var(--soft); font
   .content-section { padding: 2.2rem 0; }
   .site-footer { flex-direction: column; }
 }
+
+/* Homepage photo and introduction */
+.intro-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 2.5rem;
+  margin-top: 2rem;
+}
+
+.intro-photo {
+  flex: 0 0 250px;
+}
+
+.intro-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.intro-text {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Stack the photo above the text on small screens */
+@media (max-width: 650px) {
+  .intro-layout {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .intro-photo {
+    width: 100%;
+    max-width: 250px;
+    flex-basis: auto;
+  }
+}
+
