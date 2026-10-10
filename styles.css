@@ -53,7 +53,7 @@ h1 {
   letter-spacing: -0.045em;
   line-height: 1.1;
 }
-.intro-text { max-width: 700px; margin: 1.4rem 0 1rem; color: #444d54; font-size: 1.18rem; }
+.intro-text { max-width: 700px; margin: 0 0 1rem; color: #444d54; font-size: 1.18rem; }
 .intro-links { display: flex; flex-wrap: wrap; gap: 0.65rem; font-family: Arial, sans-serif; font-size: 0.9rem; }
 .content-section { padding: 2.8rem 0; border-bottom: 1px solid var(--line); }
 h2 { margin: 0 0 1.15rem; font-size: 1.85rem; font-weight: normal; letter-spacing: -0.025em; }
@@ -95,7 +95,7 @@ code { padding: 0.1rem 0.3rem; border-radius: 3px; background: var(--soft); font
 
 .intro-photo {
   flex: 0 0 250px;
-   margin-top: 1.4rem;
+   margin-top: 0;
 }
 
 .intro-photo img {
