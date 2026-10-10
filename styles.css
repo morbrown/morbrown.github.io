@@ -1,4 +1,4 @@
-
+```css
 /* Shared stylesheet for the six-page academic website.
    Edit the variables below to customize the site-wide colors and width. */
 :root {
@@ -18,7 +18,7 @@ body {
   background: var(--paper);
   color: var(--ink);
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 16pt;
+  font-size: 12pt;
   line-height: 1.72;
 }
 a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 3px; }
@@ -54,14 +54,14 @@ h1 {
   letter-spacing: -0.045em;
   line-height: 1.1;
 }
-.intro-text { max-width: 700px; margin: 0 0 1rem; color: #444d54; font-size: 16pt; }
+.intro-text { max-width: 700px; margin: 0 0 1rem; color: #444d54; font-size: 1rem; }
 .intro-links { display: flex; flex-wrap: wrap; gap: 0.65rem; font-family: Arial, sans-serif; font-size: 0.9rem; }
 .content-section { padding: 2.8rem 0; border-bottom: 1px solid var(--line); }
 h2 { margin: 0 0 1.15rem; font-size: 1.85rem; font-weight: normal; letter-spacing: -0.025em; }
 h3 { margin: 1.7rem 0 0.55rem; font-family: Arial, sans-serif; font-size: 0.93rem; font-weight: bold; }
-p { margin-top: 0; font-size: 16pt; }
+p { margin-top: 0; }
 .entry-list { margin: 0; padding: 0; list-style: none; }
-.entry-list li { margin: 0; padding: 0.85rem 0; border-bottom: 1px solid #edf0ef; font-size: 16pt; }
+.entry-list li { margin: 0; padding: 0.85rem 0; border-bottom: 1px solid #edf0ef; }
 .entry-list li:last-child { border-bottom: 0; }
 .entry-title { display: block; }
 .entry-meta { display: block; margin-top: 0.2rem; color: var(--muted); font-family: Arial, sans-serif; font-size: 0.84rem; line-height: 1.55; }
@@ -81,7 +81,7 @@ code { padding: 0.1rem 0.3rem; border-radius: 3px; background: var(--soft); font
   nav a { font-size: 0.78rem; }
   .intro { padding: 3.4rem 0 2.8rem; }
   .page-heading { padding: 2.8rem 0 2.2rem; }
-  .intro-text { font-size: 16pt; }
+  .intro-text { font-size: 1rem; }
   .content-section { padding: 2.2rem 0; }
   .site-footer { flex-direction: column; }
 }
@@ -110,7 +110,6 @@ code { padding: 0.1rem 0.3rem; border-radius: 3px; background: var(--soft); font
 .intro-text {
   flex: 1;
   min-width: 0;
-  font-size: 16pt;
 }
 
 /* Stack the photo above the text on small screens */
@@ -126,3 +125,4 @@ code { padding: 0.1rem 0.3rem; border-radius: 3px; background: var(--soft); font
     flex-basis: auto;
   }
 }
+```
