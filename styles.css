@@ -80,7 +80,7 @@ nav a:focus {
 }
 
 .page-heading {
-  padding: 3.8rem 0 2.8rem;
+  padding: 3.8rem 0 1rem;
   border-bottom: 1px solid var(--line);
 }
 
