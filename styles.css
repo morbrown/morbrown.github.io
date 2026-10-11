@@ -29,8 +29,8 @@ a:hover { text-decoration-thickness: 2px; }
 .container {
   width: min(var(--max-width), calc(100% - 3rem));
   max-width: var(--max-width);
-  margin-left: 5rem;
-  margin-right: 5rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .site-header {
